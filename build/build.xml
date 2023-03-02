@@ -1,0 +1,10 @@
+<project name="ContactModules" description="Contact Modules for Joomla 4" default="git" >
+    <import file="${phing.dir}/../../buildfiles/phing/common.xml" />
+
+    <target name="package-pkg" description="Installation package" depends="new-release, setup-properties, package-modules">
+    </target>
+
+    <target name="documentation" description="The documentation" />
+
+    <target name="docsdeploy" />
+</project>
